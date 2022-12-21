@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { useTotals } from "../contexts/Total";
 
+import Heading from "../components/Heading";
+
 const HeaderDiv = styled.header`
   position: fixed;
   top: 0;
@@ -13,11 +15,11 @@ const HeaderDiv = styled.header`
   padding-bottom: 0.5em;
 `;
 
-const ModuleName = styled.h1`
-  text-align: left;
-  font-size: 2em;
-  margin-left: 0.7em;
-`;
+// const ModuleName = styled.h1`
+//   text-align: left;
+//   font-size: 2em;
+//   margin-left: 0.7em;
+// `;
 
 const ButtonDiv = styled.div`
   display: flex;
@@ -99,7 +101,7 @@ function Projects() {
   return (
     <div>
       <HeaderDiv>
-        <ModuleName>Översikt</ModuleName>
+        <Heading text="Översikt" />
       </HeaderDiv>
       <ButtonDiv>
         <Buttons disabled>Projekt</Buttons>
