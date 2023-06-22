@@ -119,7 +119,7 @@ const Modal = ({ title, footer, children, active, hideModal }) => {
             </ModalHeader>
             <ModalInputDiv>
               <ModalName>Create new Todo</ModalName>
-              <NameLabel for="todo">Todo:</NameLabel>
+              <NameLabel htmlFor="todo">Todo:</NameLabel>
               <InputNewTodo
                 type="text"
                 value={input}

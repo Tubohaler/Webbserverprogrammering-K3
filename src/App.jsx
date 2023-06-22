@@ -9,7 +9,9 @@ function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    navigate("timer");
+    if (process.env.NODE_ENV !== "test") {
+      navigate("timer");
+    }
   }, []);
 
   return (

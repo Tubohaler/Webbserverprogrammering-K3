@@ -27,13 +27,13 @@ const StyledImage = styled.img`
 function Navbar() {
   return (
     <ProjectNav>
-      <Link to="timer">
+      <Link to="timer" aria-label="timer">
         <StyledImage src={clock} />
       </Link>
-      <Link to="calender">
+      <Link to="calender" aria-label="calender">
         <StyledImage src={calender} />
       </Link>
-      <Link to="overview/projects">
+      <Link to="overview/projects" aria-label="overview">
         <StyledImage src={overview} />
       </Link>
     </ProjectNav>

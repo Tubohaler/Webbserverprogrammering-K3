@@ -6,12 +6,8 @@ const TodoButton = styled.button`
   margin: 0.2em;
 `;
 
-function Button(props) {
-  return (
-    <TodoButton onClick={() => deleteProject(project.id)}>
-      {props.text}
-    </TodoButton>
-  );
+function Button({ text, action }) {
+  return <TodoButton onClick={action}>{text}</TodoButton>;
 }
 
 export default Button;

@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "name": "Införskaffa bast",
+      "color": "#4E0E9F",
+      "id": 4
+    },
+    {
+      "name": "rhodos",
+      "color": "#4E0E9F",
+      "id": 5
+    }
+  ],
+  "tasks": [
+    {
+      "title": "köpa socker",
+      "id": 3
+    },
+    {
+      "title": "test",
+      "id": 4
+    },
+    {
+      "title": "tajm",
+      "id": 5
+    }
+  ],
+  "timelogs": [
+    {
+      "start": 1668091991501,
+      "taskId": 3,
+      "time": 0,
+      "id": "L_mi47b"
+    },
+    {
+      "start": 1668092314344,
+      "taskId": 3,
+      "time": 0,
+      "id": "ruZGWSr"
+    },
+    {
+      "start": 1668157237213,
+      "taskId": 3,
+      "time": 4,
+      "id": "CAFstkt"
+    },
+    {
+      "start": 1671019713887,
+      "taskId": 3,
+      "time": 10,
+      "id": "cFRjX4Z"
+    }
+  ]
+}

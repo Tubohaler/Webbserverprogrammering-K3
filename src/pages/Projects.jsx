@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { useTotals } from "../contexts/Total";
 
 import Heading from "../components/Heading";
+import Button from "../components/Button";
 
 const HeaderDiv = styled.header`
   position: fixed;
@@ -119,9 +120,7 @@ function Projects() {
             <TodoListBar key={project.id}>
               <TodoColor color={project.color}>....</TodoColor>
               {project.name}
-              <TodoButton onClick={() => deleteProject(project.id)}>
-                Delete
-              </TodoButton>
+              <Button text="Delete" action={() => deleteProject(project.id)} />
             </TodoListBar>
           ))}
         </TodoUL>

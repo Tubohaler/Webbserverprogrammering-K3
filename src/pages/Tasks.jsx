@@ -1,5 +1,7 @@
+// @ts-check
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Todo from "../components/Todo";
 
 import { useTotals } from "../contexts/Total";
 import Modal from "../components/layout/Modal";
@@ -141,13 +143,12 @@ function Tasks() {
         </div>
         <TodoList>
           {todos.map((todo) => (
-            <TodoListBar key={todo.id}>
-              <TodoColor color={getProjects.color}>....</TodoColor>
-              {todo.title}
-              <TodoButton onClick={() => deleteTodo(todo.id)}>
-                Delete
-              </TodoButton>
-            </TodoListBar>
+            <Todo
+              title={todo.title}
+              id={todo.id}
+              color={getProjects.color}
+              action={() => deleteTodo(todo.id)}
+            />
           ))}
         </TodoList>
       </section>

@@ -9,6 +9,31 @@
       "name": "springa 1km",
       "color": "#4E0E9F",
       "id": 6
+    },
+    {
+      "name": "snus",
+      "color": "#4E0E9F",
+      "id": 7
+    },
+    {
+      "name": "slita livet ut",
+      "color": "#4E0E9F",
+      "id": 8
+    },
+    {
+      "name": "slita livet ut",
+      "color": "#4E0E9F",
+      "id": 9
+    },
+    {
+      "name": "korvstoppning",
+      "color": "#4E0E9F",
+      "id": 10
+    },
+    {
+      "name": "rhodos",
+      "color": "#4E0E9F",
+      "id": 11
     }
   ],
   "tasks": [
@@ -17,8 +42,12 @@
       "id": 3
     },
     {
-      "title": "springa 1km",
+      "title": "slita livet ut",
       "id": 4
+    },
+    {
+      "title": "imorgon är en annan dag",
+      "id": 5
     }
   ],
   "timelogs": [
